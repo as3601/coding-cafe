@@ -6,11 +6,11 @@ The `--global` option saves my name and email in Git's global configuration, app
 ## Question 2
 The `ls -a` command displays hidden files and folders, including `.git`. The `.git` directory stores repository data such as configuration, objects, references, and commit history.
 
-## Question 3
-The number of untracked files depends on the contents of my project. I should record the number shown by `git status` before staging files.
+## Question 3: 
+You saw three untracked entries: .gitignore, README.md, and lab4/. These appeared after creating your project files, not during the initial empty-repository check.
 
-## Question 4
-The `.gitignore` file tells Git to ignore matching files, such as `.venv/`, `__pycache__/`, `*.pyc`, and `.DS_Store`, so they are not accidentally added to the repository.
+## Question 4: 
+Explain that .gitignore excludes matching files and directories, especially .venv/, __pycache__/, and *.pyc. Your actual project had no .venv/ listed.
 
 ## Question 5
 The `.gitignore` file should be committed because it contains project-wide rules that other contributors can reuse.
@@ -19,7 +19,7 @@ The `.gitignore` file should be committed because it contains project-wide rules
 After running `git add README.md`, the README moves from the untracked files section to the staging area, shown under "Changes to be committed".
 
 ## Question 7
-The commit command saves the staged changes in Git history. The terminal displays a commit hash and a summary of the files changed.
+Your first commit reported three files changed, with 60 insertions. That was the output you recorded for commit 38dc755.
 
 ## Question 8
 The first seven characters of a commit hash are a short version of its unique identifier, making it easier to refer to a commit.
